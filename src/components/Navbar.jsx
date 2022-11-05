@@ -8,9 +8,9 @@ const Navbar = () => {
 
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-      <img src={logo} alt="steven kebila" className='w-[140px] h-[40px] flex-1'/>
+      <img src={logo} alt="steven kebila" className='w-[150px] h-[50px] flex-initial'/>
 
-      <ul className='list-none sm:flex hidden  items-center flex-1'>
+      <ul className='list-none sm:flex hidden justify-center items-center flex-1'>
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
@@ -23,7 +23,7 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <ul className='list-none sm:flex hidden  items-center flex-1'>
+      <ul className='list-none sm:flex hidden justify-end items-center flex-initial'>
         {navButtons.map((navBtn, index) => (
           <li
             key={navBtn.id}
