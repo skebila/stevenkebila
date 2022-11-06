@@ -5,5 +5,5 @@ import close from './close.svg'
 export {
     logo,
     menu,
-    close
+    close,
 }
