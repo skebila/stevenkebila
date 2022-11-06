@@ -9,7 +9,7 @@ const Hero = () =>  (
         </h1>
 
         <p className="font-poppins font-normal ss:text-[18px] ss:leading-[30px] text-[16px] leading-[30px] text-white">
-          Developing <span className="text-[#1042A3]">highy-interactive</span> & <span className="text-[#1042A3]">responsive</span> user interfaces <br className="sm:block hidden"/> or <span className="text-[#1042A3]">scalable</span> & <span className="text-[#1042A3]">reliable</span> back-end solutions.
+          Developing <span className="text-[#1042A3]">highy-interactive</span> & <span className="text-[#1042A3]">responsive</span> user interfaces <br /> or <span className="text-[#1042A3]">scalable</span> & <span className="text-[#1042A3]">reliable</span> back-end solutions.
         </p>
 
         <button className="bg-[#1042A3] font-poppins cursor-pointer text-[16px] font-semibold py-4 px-10 rounded-full inline-flex items-center text-white">Download my resume</button>
