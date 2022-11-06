@@ -27,7 +27,7 @@ const Navbar = () => {
         {navButtons.map((navBtn, index) => (
           <li
             key={navBtn.id}
-            className={`${index === 0 ? 'bg-transparent border border-[#1042A3] ' : 'ml-2 bg-[#1042A3]'} font-poppins cursor-pointer text-[16px] font-normal py-2 px-4 rounded-full inline-flex items-center text-white`}
+            className={`${index === 0 ? 'bg-transparent border border-[#1042A3] hover:bg-[#1042A3] ' : 'ml-2 bg-[#1042A3]'} font-poppins cursor-pointer text-[16px] font-normal py-2 px-4 rounded-full inline-flex items-center text-white `}
           >
             <a href={`#${navBtn.id}`}>
               <button>{navBtn.title}</button>
