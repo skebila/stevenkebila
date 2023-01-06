@@ -15,3 +15,8 @@
 <a href="https://instagram.com/stevenkebila_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="student-haven-app" height="30" width="30" /></a>
 </p>
 
+15 mins non tech meet and greet
+take home assessement min of 5 days
+interview with ceo
+
+HTML, CSS, Vanilla Javascript
