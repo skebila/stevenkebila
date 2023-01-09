@@ -1,6 +1,7 @@
 import styles from "../style"
 import { motion } from "framer-motion"
 import { headerVariant, subHeaderVariant, headerCTAVariant } from "../animations"
+import { animated } from '@react-spring/web'
 
 const Hero = () =>  (
   <section id='home' className={`flex md:flex-row flex-col border-t border-[#262626] h-[100vh] ${styles.paddingY}`}>
