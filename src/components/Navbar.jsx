@@ -7,6 +7,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false)
 
   return (
+    //NavBar Start
     <nav className='w-full flex py-6 justify-between items-center navbar'>
       <img src={logo} alt="steven kebila" className='w-[120px] h-[50px] flex-initial'/>
 
