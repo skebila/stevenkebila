@@ -41,7 +41,7 @@ export const headerCTAVariant = {
         y: 0,
         transition: {
             type: 'spring',
-            duration: 3,
+            duration: 2.5,
             bounce: 0.3,
         },
     },
