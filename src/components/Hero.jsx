@@ -1,10 +1,9 @@
 import styles from "../style"
 import { motion } from "framer-motion"
 import { headerVariant, subHeaderVariant, headerCTAVariant } from "../animations"
-import { animated } from '@react-spring/web'
 
 const Hero = () =>  (
-  <section id='home' className={`flex md:flex-row flex-col border-t border-[#262626] h-[100vh] ${styles.paddingY}`}>
+  <section id='home' className={`flex md:flex-row flex-col h-[100vh] ${styles.paddingY}`}>
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
       <div className="flex flex-col justify-between items-center w-full">
         
