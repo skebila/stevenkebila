@@ -11,7 +11,7 @@ const Hero = () =>  (
           variants={headerVariant}
           initial='initial'
           animate='animate'
-          className="flex-1 font-poppins mb-4 font-semibold text-center ss:text-[4em] text-[2em] text-white ss:leading-[80px] leading-[50px]">
+          className="flex-1 font-poppins mb-2 font-semibold text-center ss:text-[4em] text-[2em] text-white ss:leading-[80px] leading-[20px]">
           Hello, I'm <span className=" text-[#1042A3]">Steven.</span>
         </motion.h1>
 
