@@ -1,3 +1,4 @@
+import { linkedin, github, email } from "../assets";
 
 export const navLinks = [
   {
@@ -121,66 +122,24 @@ export const projects = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
-    links: [
+    title: "Living, learning, $ leveling up one second at a time.",
+    icons: [
       {
-        name: "Content",
+        name: "Github",
         link: "https://www.hoobank.com/content/",
+        icon: github,
       },
       {
-        name: "How it Works",
+        name: "LinkedIn",
         link: "https://www.hoobank.com/how-it-works/",
+        icon: linkedin,
       },
       {
-        name: "Create",
+        name: "Email",
         link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        icon: email,
       },
     ],
   },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
+  
 ];
