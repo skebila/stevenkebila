@@ -7,6 +7,7 @@ import arrowRight from './arrowRight.svg'
 import github from './github.svg'
 import linkedin from './linkedin.svg'
 import email from './email.svg'
+import instagram from './instagram.svg'
 
 export {
     logo,
@@ -18,4 +19,5 @@ export {
     github,
     linkedin,
     email,
+    instagram,
 }

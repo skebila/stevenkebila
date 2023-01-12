@@ -1,4 +1,4 @@
-import { linkedin, github, email } from "../assets";
+import { linkedin, github, email, instagram } from "../assets";
 
 export const navLinks = [
   {
@@ -36,7 +36,7 @@ export const projects = [
     title: "Lumose Marketplace Inc.",
     category: "crypto token landing page",
     description: "Lumose Marketplace is a software, tools and services comparison platform curated for small law firms. ",
-    link: "https://www.lumosemarketplace.com/",
+    url: "https://www.lumosemarketplace.com/",
     stack: [
       'React JS',
       'Node.js',
@@ -82,7 +82,7 @@ export const projects = [
     title: "Kichi Coin",
     category: "crypto token landing page",
     description: "KichiCoin ($KICH) is a revolutionary De-Fi community-driven utility token that provides safe, secure, hassle-free transactions for everyone, along with a weekly lottery system utilizing Chainlink VRF that brings joy to our holders.",
-    link: "https://www.kichicoin.com",
+    url: "https://www.kichicoin.com",
     stack: [
       'React JS',
       'Node.js',
@@ -93,7 +93,7 @@ export const projects = [
     title: "Perera Legal",
     category: "Law Firm",
     description: "Perera Legal is a leading boutique law firm based in Calgary, Alberta with virtual offices in Toronto and Edmonton.",
-    link: "https://www.pereralegal.ca",
+    url: "https://www.pereralegal.ca",
     stack: [
       'Webflow',
     ],
@@ -112,7 +112,7 @@ export const projects = [
     title: "Overcomers Christian Center",
     category: "Religious Organization",
     description: "Overcomers Christian Center is a religious community located in Brampton Ontario that embraces all cultural backgrounds.",
-    link: "https://overcomersglobal.com",
+    url: "https://overcomersglobal.com",
     stack: [
       'React JS',
       'Node.js',
@@ -126,18 +126,23 @@ export const footerLinks = [
     links: [
       {
         name: "Github",
-        url: "https://www.hoobank.com/content/",
+        url: "https://github.com/skebila",
         icon: github,
       },
       {
         name: "LinkedIn",
-        url: "https://www.hoobank.com/how-it-works/",
+        url: "https://www.linkedin.com/in/steven-kebila",
         icon: linkedin,
       },
       {
         name: "Email",
-        url: "https://www.hoobank.com/create/",
+        url: "mailto:stevenkebila@gmail.com",
         icon: email,
+      },
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/stevenkebila_/",
+        icon: instagram,
       },
     ],
   },
