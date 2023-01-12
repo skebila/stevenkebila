@@ -12,7 +12,7 @@ const Hero = () =>  (
           initial='initial'
           animate='animate'
           className="flex-1 font-poppins mb-2 font-semibold text-center ss:text-[4em] text-[2em] text-white ss:leading-[80px] leading-[20px]">
-          Hello, I'm <span className=" text-[#1042A3]">Steven.</span>
+          Hello, I'm <span className=" text-[#6E07F3]">Steven.</span>
         </motion.h1>
 
         <motion.p
@@ -23,13 +23,14 @@ const Hero = () =>  (
           I'm a Front-End Engineer.<br/>
         </motion.p>
 
-        <motion.button
+        <motion.a
+          href={'#projects'}
           variants={headerCTAVariant}
           initial='initial'
           animate='animate'
-          className="bg-[#1042A3] font-poppins cursor-pointer text-[16px] font-semibold py-4 px-10 rounded-full inline-flex items-center text-white">
+          className="bg-[#6E07F3] font-poppins cursor-pointer text-[16px] font-semibold py-4 px-10 rounded-full inline-flex items-center text-white">
           View My Work
-        </motion.button>
+        </motion.a>
       </div>
       
     </div>

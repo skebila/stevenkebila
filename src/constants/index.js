@@ -122,21 +122,21 @@ export const projects = [
 
 export const footerLinks = [
   {
-    title: "Living, learning, $ leveling up one second at a time.",
-    icons: [
+    title: "Living, learning, and leveling up one second at a time.",
+    links: [
       {
         name: "Github",
-        link: "https://www.hoobank.com/content/",
+        url: "https://www.hoobank.com/content/",
         icon: github,
       },
       {
         name: "LinkedIn",
-        link: "https://www.hoobank.com/how-it-works/",
+        url: "https://www.hoobank.com/how-it-works/",
         icon: linkedin,
       },
       {
         name: "Email",
-        link: "https://www.hoobank.com/create/",
+        url: "https://www.hoobank.com/create/",
         icon: email,
       },
     ],
