@@ -137,7 +137,7 @@ export const footerLinks = [
       },
       {
         name: "Email",
-        url: "mailto:stevenkebila@gmail.com",
+        url: "mailto:me@stevenkebila.com",
         icon: email,
       },
       {
