@@ -20,7 +20,7 @@ export const layout = {
   sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
 
   sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
-  sectionImg: `grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 ${styles.flexCenter}  ml-0 md:mt-0 mt-10 relative`,
+  sectionImg: `grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 ${styles.flexCenter}  ml-0 md:mt-0 mt-10 relative`,
 
   sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
 };

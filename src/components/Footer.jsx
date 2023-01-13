@@ -4,7 +4,7 @@ import { footerLinks } from "../constants"
 
 const footer = () => (
 
-  <section className={`${styles.flexCenter} ${styles.paddingY} bg-[#303798] flex-col`}>
+  <section className={`${styles.flexCenter} ${styles.paddingY} bg-[#0081CF] flex-col`}>
     <div className={`${styles.flexCenter}  flex-col mb-8 w-full`}>
       <a href='#'>
         <img
@@ -22,7 +22,7 @@ const footer = () => (
 
             <div className={`${styles.flexCenter} flex-1 flex flex-row my-12 w-full `}>
               {footerLink.links.map((link, index) => (
-                <a href={`${link.url}`} alt={`${link.id}`} target='_blank' className='border-2 border-[#dbdbdb9b] hover:bg-[#8a92fc83] mx-2 rounded-full p-2'>
+                <a href={`${link.url}`} alt={`${link.id}`} target='_blank' className='border-2 border-[#dbdbdb9b] hover:bg-[#18567c83] mx-2 rounded-full p-2'>
                   <img src={`${link.icon}`} className="w-[25px] h-[25px]"/>
                 </a>
               ))}

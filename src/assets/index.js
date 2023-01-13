@@ -8,6 +8,7 @@ import github from './github.svg'
 import linkedin from './linkedin.svg'
 import email from './email.svg'
 import instagram from './instagram.svg'
+import studenthaven from './studenthaven-card.png'
 
 export {
     logo,
@@ -20,4 +21,5 @@ export {
     linkedin,
     email,
     instagram,
+    studenthaven,
 }

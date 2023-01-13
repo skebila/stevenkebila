@@ -1,4 +1,4 @@
-import { linkedin, github, email, instagram } from "../assets";
+import { linkedin, github, email, instagram, studenthaven } from "../assets";
 
 export const navLinks = [
   {
@@ -60,6 +60,7 @@ export const projects = [
     title: "Student Haven App",
     category: "Student Social Media",
     description: "Student Haven App is a capstone project I worked on for my end of year semester. This app is a student social media platform where student from multiple schools can interact and connect with each other",
+    bg: studenthaven,
     stack: [
       'React Native',
       'Node.js',

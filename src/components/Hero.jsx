@@ -12,7 +12,7 @@ const Hero = () =>  (
           initial='initial'
           animate='animate'
           className="flex-1 font-poppins mb-2 font-semibold text-center ss:text-[4em] text-[2em] text-white ss:leading-[80px] leading-[20px]">
-          Hello, I'm <span className=" text-[#303798]">Steven.</span>
+          Hello, I'm <span className=" text-[#0081CF]">Steven.</span>
         </motion.h1>
 
         <motion.p
@@ -28,7 +28,7 @@ const Hero = () =>  (
           variants={headerCTAVariant}
           initial='initial'
           animate='animate'
-          className="bg-[#303798] font-poppins cursor-pointer text-[16px] font-semibold py-4 px-10 rounded-full inline-flex items-center text-white">
+          className="bg-[#0081CF] font-poppins cursor-pointer text-[16px] font-semibold py-4 px-10 rounded-full inline-flex items-center text-white">
           View My Work
         </motion.a>
       </div>
