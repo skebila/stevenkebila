@@ -29,7 +29,7 @@ const footer = () => (
             </div>
 
             <p className={`${styles.paragraph} text-[1em]`}>Handcrafted by yours truly ©{new Date().getFullYear()}</p>
-            <p className={`${styles.paragraph} text-[0.75em]`}>Made with <a href='https://reactjs.org/' target='_blank' className='text-[1.1em] hover:text-white font-bold'>React JS</a> & <a href='https://tailwindcss.com' target='_blank' className='hover:text-white text-[1.1em] font-bold'>TailwindCSS</a></p>
+            <p className={`${styles.paragraph} text-[0.75em]`}>Developed with <a href='https://reactjs.org/' target='_blank' className='text-[1.1em] hover:text-white font-bold'>React JS</a> & <a href='https://tailwindcss.com' target='_blank' className='hover:text-white text-[1.1em] font-bold'>TailwindCSS</a></p>
           </div>
         ))}
       </div>

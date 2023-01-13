@@ -112,8 +112,8 @@ export const projects = [
     id: "project-8",
     title: "Overcomers Christian Center",
     category: "Religious Organization",
-    description: "Overcomers Christian Center is a religious community located in Brampton Ontario that embraces all cultural backgrounds.",
-    url: "https://overcomersglobal.com",
+    description: "Overcomers Christian Center is a christian community located in Brampton Ontario.",
+    url: "",
     stack: [
       'React JS',
       'Node.js',

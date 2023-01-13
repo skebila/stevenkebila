@@ -20,7 +20,7 @@ const Hero = () =>  (
           initial='initial'
           animate='animate'
           className="font-poppins font-normal mb-20 ss:leading-[30px] ss:text-[3em] text-[1.5em] leading-[30px] text-white text-center">
-          I'm a Front-End Engineer.<br/>
+          I'm a Software Engineer.<br/>
         </motion.p>
 
         <motion.a
