@@ -28,7 +28,7 @@ const Navbar = () => {
         {navButtons.map((navBtn, index) => (
           <li
             key={navBtn.id}
-            className={`${index === 0 ? 'bg-transparent border border-[#0081CF] hover:bg-[#0081CF] ' : 'ml-2 bg-[#0081CF]'} font-poppins cursor-pointer text-[16px] font-normal py-2 px-4 rounded-full inline-flex items-center text-white `}
+            className={`${index === 0 ? 'bg-transparent border-2 border-[#0081CF] hover:bg-[#0081CF] ' : 'ml-2 bg-[#0081CF]'} font-poppins cursor-pointer text-[16px] font-normal py-2 px-4 rounded-full inline-flex items-center text-white `}
           >
             <a href={`#${navBtn.id}`}>
               <button>{navBtn.title}</button>
@@ -63,7 +63,7 @@ const Navbar = () => {
             {navButtons.map((navBtn, index) => (
           <li
             key={navBtn.id}
-            className={`${index === 0 ? 'bg-transparent border border-[#0081CF] ' : 'mt-2 bg-[#0081CF]'} font-poppins cursor-pointer text-[14px] font-normal py-2 px-4 rounded-full inline-flex items-center text-white`}
+            className={`${index === 0 ? 'bg-transparent border-2 border-[#0081CF] ' : 'mt-2 bg-[#0081CF]'} font-poppins cursor-pointer text-[14px] font-normal py-2 px-4 rounded-full inline-flex items-center text-white`}
           >
             <a href={`#${navBtn.id}`}>
               <button>{navBtn.title}</button>
