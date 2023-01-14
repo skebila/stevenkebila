@@ -9,6 +9,7 @@ import linkedin from './linkedin.svg'
 import email from './email.svg'
 import instagram from './instagram.svg'
 import studenthaven from './studenthaven-card.png'
+import lumosemarketplace from './lumosemarketplace-card.png'
 
 export {
     logo,
@@ -22,4 +23,5 @@ export {
     email,
     instagram,
     studenthaven,
+    lumosemarketplace,
 }

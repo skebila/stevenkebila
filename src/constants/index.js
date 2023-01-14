@@ -1,4 +1,4 @@
-import { linkedin, github, email, instagram, studenthaven } from "../assets";
+import { linkedin, github, email, instagram, studenthaven, lumosemarketplace } from "../assets";
 
 export const navLinks = [
   {
@@ -37,6 +37,7 @@ export const projects = [
     category: "crypto token landing page",
     description: "Lumose Marketplace is a software, tools and services comparison platform curated for small law firms. ",
     url: "https://www.lumosemarketplace.com/",
+    bg: lumosemarketplace,
     stack: [
       'React JS',
       'Node.js',
