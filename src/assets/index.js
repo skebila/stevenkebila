@@ -10,6 +10,7 @@ import email from './email.svg'
 import instagram from './instagram.svg'
 import studenthaven from './studenthaven-card.png'
 import lumosemarketplace from './lumosemarketplace-card.png'
+import lup from './lup-card.png'
 
 export {
     logo,
@@ -24,4 +25,5 @@ export {
     instagram,
     studenthaven,
     lumosemarketplace,
+    lup,
 }

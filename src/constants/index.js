@@ -1,4 +1,4 @@
-import { linkedin, github, email, instagram, studenthaven, lumosemarketplace } from "../assets";
+import { linkedin, github, email, instagram, studenthaven, lumosemarketplace, lup, } from "../assets";
 
 export const navLinks = [
   {
@@ -51,6 +51,7 @@ export const projects = [
     title: "Lumose Upskilling Program",
     category: "Non Profit Organization",
     description: "Lumose Upskilling Program is an initiative designed to support the underserved communities living in Ontario who need skills training to help them find greater opportunities for employment in occupations with better job prospects.",
+    bg: lup,
     stack: [
       'React JS',
       'Node.js',
