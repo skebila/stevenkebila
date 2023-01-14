@@ -4,7 +4,7 @@ import { footerLinks } from "../constants"
 
 const footer = () => (
 
-  <section className={`${styles.flexCenter} ${styles.paddingY} bg-[#0081CF] flex-col`}>
+  <section id="socials" className={`${styles.flexCenter} ${styles.paddingY} bg-[#0081CF] flex-col`}>
     <div className={`${styles.flexCenter}  flex-col mb-8 w-full`}>
       <a href='#'>
         <img
