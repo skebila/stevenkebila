@@ -21,7 +21,7 @@ const Hero = () =>  (
           animate='animate'
           className="font-poppins font-normal mb-20 ss:leading-[30px] ss:text-[3em] text-[1.5em] leading-[30px] text-white text-center">
           I'm a Software Engineer.<br />
-          <span className="text-[12px] font-semibold leading-[100px] hover:text-[#0080cfa6] text-[#999999a3]">"This portfolio is still under construction so please disregard any broken links :)"</span>
+          <span className="text-[12px] font-semibold hover:text-[#0080cfa6] text-[#999999a3]">"This portfolio is still under construction so please disregard any broken links :)"</span>
         </motion.p>
 
         <motion.a
