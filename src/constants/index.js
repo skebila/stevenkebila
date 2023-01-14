@@ -5,13 +5,13 @@ export const navLinks = [
     id: "home",
     title: "Home",
   },
-  {
+  /*{
     id: "about",
     title: "About",
-  },
+  },*/
   {
     id: "projects",
-    title: "Projects",
+    title: "My Portfolio",
   },
   {
     id: "socials",
@@ -24,9 +24,9 @@ export const navButtons = [
     id: "resume",
     title: "Resume",
   },
- /* {
-    id: "contact-me",
-    title: "Contact me"
+  /*{
+    id: "contact",
+    title: "Contact"
   },*/
 ]
 
@@ -43,7 +43,7 @@ export const projects = [
       'Node.js',
       'Airtable',
       'Zapier',
-      'Member Stack',
+      //'Member Stack',
     ],
   },
   {//LUP
@@ -90,6 +90,8 @@ export const projects = [
     bg: buymypractice,
     stack: [
       'JavaScript',
+      'HTML',
+      'CSS',
     ],
   },
   {//Remote Appraisals
@@ -160,7 +162,7 @@ export const footerLinks = [
       },
       {
         name: "Instagram",
-        url: "https://www.instagram.com/stevenkebila_/",
+        url: "https://www.instagram.com/stevencodestoo",
         icon: instagram,
       },
     ],
