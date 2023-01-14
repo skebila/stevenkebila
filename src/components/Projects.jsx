@@ -27,10 +27,9 @@ const ProjectCard = ({ title, category, description, url, stack, index, bg }) =>
       </ul>
       </div>
       
-
       <p className="font-poppins text-[#999999]  text-[0.75em] leading-[22px] mb-1">{description}</p>
-      <a href={`${url}`} target='_blank' className={`${url!=null ? 'flex max-w-[125px] items-center my-4 font-poppins font-semibold text-[0.85em] text-[#0081CF] outline-none' : 'hidden'} `}>
-        Visit Website <img src={arrowRight} className='w-[25px] h-[25px] ml-2'/>
+      <a href={`${url}`} target='_blank' className={`${url!=null ? 'flex self-start items-center my-4 font-poppins font-semibold text-[0.85em] text-[#0081CF] outline-none' : 'hidden'} `}>
+        Visit Website<img src={arrowRight} className='w-[25px] h-[25px] ml-2'/>
       </a>
     </div>
   </div>
