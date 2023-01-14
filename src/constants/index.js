@@ -1,4 +1,4 @@
-import { linkedin, github, email, instagram, studenthaven, lumosemarketplace, lup, } from "../assets";
+import { linkedin, github, email, instagram, studenthaven, lumosemarketplace, lup, buymypractice, kichicoin, remoteappraisals, } from "../assets";
 
 export const navLinks = [
   {
@@ -31,7 +31,7 @@ export const navButtons = [
 ]
 
 export const projects = [
-  {
+  {//Lumose Marketplace
     id: "project-1",
     title: "Lumose Marketplace Inc.",
     category: "crypto token landing page",
@@ -46,7 +46,7 @@ export const projects = [
       'Member Stack',
     ],
   },
-  {
+  {//LUP
     id: "project-2",
     title: "Lumose Upskilling Program",
     category: "Non Profit Organization",
@@ -57,7 +57,7 @@ export const projects = [
       'Node.js',
     ],
   },
-  {
+  {//Student Haven
     id: "project-3",
     title: "Student Haven App",
     category: "Student Social Media",
@@ -70,7 +70,42 @@ export const projects = [
       'Expo',
     ],
   },
-  {
+  {//Kichi Coin
+    id: "project-4",
+    title: "Kichi Coin",
+    category: "crypto token landing page",
+    description: "KichiCoin ($KICH) is a revolutionary De-Fi community-driven utility token that provides safe, secure, hassle-free transactions for everyone, along with a weekly lottery system utilizing Chainlink VRF that brings joy to our holders.",
+    url: "https://www.kichicoin.com",
+    bg: kichicoin,
+    stack: [
+      'React JS',
+      'Node.js',
+    ],
+  },
+  {//buymypractice
+    id: "project-5",
+    title: "Buy My Practice",
+    category: "Law Firm Shop",
+    description: "Buy My Practice helps lawyers and small law firms buy or invest into other law firms that are for sale dependent on the buyer's preferred practice area or jurisdiction.",
+    bg: buymypractice,
+    stack: [
+      'JavaScript',
+    ],
+  },
+  {//Remote Appraisals
+      id: "project-6",
+      title: "Remote Appraisals",
+      category: "Vehicle Appraisal Business",
+      description: "Remote appraisal is an affordable vehicle appraisal service located in British Columbia.",
+      bg: remoteappraisals,
+      stack: [
+        'React JS',
+        'Node.js',
+        'TailwindCSS',
+      ],
+    },
+  //other projects
+  /*{
     id: "project-4",
     title: "Tesla App",
     category: "Clone",
@@ -80,17 +115,7 @@ export const projects = [
       'Node.js',
     ],
   },
-  {
-    id: "project-5",
-    title: "Kichi Coin",
-    category: "crypto token landing page",
-    description: "KichiCoin ($KICH) is a revolutionary De-Fi community-driven utility token that provides safe, secure, hassle-free transactions for everyone, along with a weekly lottery system utilizing Chainlink VRF that brings joy to our holders.",
-    url: "https://www.kichicoin.com",
-    stack: [
-      'React JS',
-      'Node.js',
-    ],
-  },
+  
   {
     id: "project-6",
     title: "Perera Legal",
@@ -99,15 +124,6 @@ export const projects = [
     url: "https://www.pereralegal.ca",
     stack: [
       'Webflow',
-    ],
-  },
-  {
-    id: "project-7",
-    title: "Buy My Practice",
-    category: "Law Firm Shop",
-    description: "Buy My Practice helps lawyers and small law firms buy or invest into other law firms that are for sale dependent on the buyer's preferred practice area or jurisdiction.",
-    stack: [
-      'JavaScript',
     ],
   },
   {
@@ -120,7 +136,7 @@ export const projects = [
       'React JS',
       'Node.js',
     ],
-  },
+  },*/
 ]
 
 export const footerLinks = [

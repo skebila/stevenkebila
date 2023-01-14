@@ -11,6 +11,9 @@ import instagram from './instagram.svg'
 import studenthaven from './studenthaven-card.png'
 import lumosemarketplace from './lumosemarketplace-card.png'
 import lup from './lup-card.png'
+import buymypractice from './buymypractice-card.png'
+import kichicoin from './kichicoin-card.png'
+import remoteappraisals from './remoteappraisals-card.png'
 
 export {
     logo,
@@ -26,4 +29,7 @@ export {
     studenthaven,
     lumosemarketplace,
     lup,
+    buymypractice,
+    kichicoin,
+    remoteappraisals,
 }
