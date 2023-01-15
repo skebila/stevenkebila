@@ -6,7 +6,7 @@ const Footer = () => (
 
   <section id="socials" className={`${styles.flexCenter} py-[60px] bg-[#0081CF] flex-col`}>
     <div className={`${styles.flexCenter}  flex-col mb-8 w-full`}>
-      <a href='#'>
+      <a href='#home'>
         <img
           src={logoIcon}
           alt='Steven Kebila'

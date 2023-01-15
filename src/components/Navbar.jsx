@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     //NavBar Start
     <nav className='w-full border-b border-[#5757574f] flex py-6 justify-between items-center navbar'>
-      <img src={logo} alt="steven kebila" className='w-[120px] h-[50px] flex-initial'/>
+      <a href="#home"><img src={logo} alt="steven kebila" className='w-[120px] h-[50px] flex-initial'/></a>
 
       <ul className='list-none sm:flex hidden justify-center items-center flex-1'>
         {navLinks.map((nav, index) => (
