@@ -43,7 +43,7 @@ export const projects = [
       'Node.js',
       'Airtable',
       'Zapier',
-      //'Member Stack',
+      'Member Stack',
     ],
   },
   {//LUP

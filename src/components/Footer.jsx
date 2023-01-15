@@ -2,7 +2,7 @@ import styles from "../style"
 import { logoIcon } from "../assets"
 import { footerLinks } from "../constants"
 
-const footer = () => (
+const Footer = () => (
 
   <section id="socials" className={`${styles.flexCenter} py-[60px] bg-[#0081CF] flex-col`}>
     <div className={`${styles.flexCenter}  flex-col mb-8 w-full`}>
@@ -40,4 +40,4 @@ const footer = () => (
 )
 
 
-export default footer
+export default Footer
