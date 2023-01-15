@@ -2,7 +2,7 @@ import { projects } from "../constants"
 import styles, { layout } from "../style"
 import { arrowRight, link } from "../assets"
 
-const ProjectCard = ({ title, category, description, url, stack, index, bg }) => (
+const ProjectCard = ({ title, category, description, url, stack, index, bg, github }) => (
   <div className={`flex flex-col items-start md:p-6 sm:p-2 ss:p-10 p-6 rounded-[20px] ${index !== projects.length - 1 ? "mb-6" : "md-0"} project-card`}>
     <div 
       className={`border-0 border-[#262626] rounded-[20px] self-stretch w-auto sm:max-w-[480px] mb-5 `}>
@@ -28,7 +28,10 @@ const ProjectCard = ({ title, category, description, url, stack, index, bg }) =>
       
       <p className="font-poppins text-[#999999]  text-[0.75em] leading-[22px] mb-1">{description}</p>
       <a href={`${url}`} target='_blank' className={`${url!=null ? 'underline flex self-start items-center my-4 font-poppins font-semibold text-[0.85em] text-[#0080cf] outline-none' : 'hidden'} `}>
-        Visit Website<img src={link} className='w-[10px] h-[10px] ml-[4px]'/>
+        Visit website<img src={link} className='w-[10px] h-[10px] ml-[4px]'/>
+      </a>
+      <a href={`${github}`} target='_blank' className={`${github!=null ? 'underline flex self-start items-center my-4 font-poppins font-semibold text-[0.85em] text-[#0080cf] outline-none' : 'hidden'} `}>
+        Github repo<img src={link} className='w-[10px] h-[10px] ml-[4px]'/>
       </a>
     </div>
   </div>
