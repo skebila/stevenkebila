@@ -1,6 +1,4 @@
-import Popup from 'reactjs-popup';
-import styles, { layout } from '../style';
-import { Document, Page } from 'react-pdf';
+import styles from '../style';
 import { resume } from '../assets';
 
 const Resume = ({ visible, onClose }) => {

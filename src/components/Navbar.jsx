@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Resume from './Resume'
-import { navLinks, navButtons } from '../constants'
+import { navLinks } from '../constants'
 import { logo, menu, close } from '../assets'
 import styles from '../style'
 
