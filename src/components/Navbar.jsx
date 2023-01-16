@@ -1,10 +1,13 @@
 import { useState } from 'react'
-
+import Resume from './Resume'
 import { navLinks, navButtons } from '../constants'
 import { logo, menu, close } from '../assets'
+import styles from '../style'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
+  const [showMyResume, setShowMyResume] = useState(false)
+  const handleOnClose = () => setShowMyResume(false)
 
   return (
     //NavBar Start
@@ -15,7 +18,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${index === length - 1 ? 'mr-0' : 'mr-10'} text-white`}
+            className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white`}
           >
             <a href={`#${nav.id}`}>
               {nav.title}
@@ -24,18 +27,9 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <ul className='list-none sm:flex hidden justify-end items-center flex-initial'>
-        {navButtons.map((navBtn, index) => (
-          <li
-            key={navBtn.id}
-            className={`${index === 0 ? 'bg-transparent border-2 border-[#0081CF] hover:bg-[#0081CF] ' : 'ml-2 bg-[#0081CF]'} font-poppins cursor-pointer text-[16px] font-normal py-2 px-4 rounded-full inline-flex items-center text-white `}
-          >
-            <a href={`#${navBtn.id}`}>
-              <button>{navBtn.title}</button>
-            </a>
-          </li>
-        ))}
-      </ul>
+      {/*Resume button*/}
+      <button onClick={() => setShowMyResume(true)} className={`${styles.unfilledButton} sm:flex hidden`}>Resume</button>
+      <Resume onClose={handleOnClose} visible={showMyResume} />
       
       <div className='sm:hidden flex flex-1 justify-end items-center'>
         <img
@@ -60,16 +54,9 @@ const Navbar = () => {
               </li>
             ))}
 
-            {navButtons.map((navBtn, index) => (
-          <li
-            key={navBtn.id}
-            className={`${index === 0 ? 'bg-transparent border-2 border-[#0081CF] ' : 'mt-2 bg-[#0081CF]'} font-poppins cursor-pointer text-[14px] font-normal py-2 px-4 rounded-full inline-flex items-center text-white`}
-          >
-            <a href={`#${navBtn.id}`}>
-              <button>{navBtn.title}</button>
-            </a>
-          </li>
-        ))}
+            {/*Resume button mobile*/}
+            <button onClick={() => (setShowMyResume(true), setToggle(false))} className={`${styles.unfilledButton}`}>Resume</button> 
+
           </ul>
         </div>
       </div>

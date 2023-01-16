@@ -1,6 +1,6 @@
 import { projects } from "../constants"
 import styles, { layout } from "../style"
-import { arrowRight, link } from "../assets"
+import { link } from "../assets"
 
 const ProjectCard = ({ title, category, description, url, stack, index, bg, github }) => (
   <div className={`flex flex-col items-start md:p-6 sm:p-2 ss:p-10 p-6 rounded-[20px] ${index !== projects.length - 1 ? "mb-6" : "md-0"} project-card`}>

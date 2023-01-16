@@ -6,7 +6,6 @@ const Hero = () =>  (
   <section id='home' className={`flex md:flex-row flex-col h-[100vh] ${styles.paddingY}`}>
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
       <div className="flex flex-col justify-between items-center w-full">
-        
         <motion.h1
           variants={headerVariant}
           initial='initial'
@@ -28,7 +27,7 @@ const Hero = () =>  (
           variants={headerCTAVariant}
           initial='initial'
           animate='animate'
-          className="bg-[#0081CF] font-poppins cursor-pointer text-[16px] font-semibold py-4 px-10 rounded-full inline-flex items-center text-white">
+          className={`${styles.filledButton}`}>
           View My Work
         </motion.a>
       </div>

@@ -15,6 +15,7 @@ import buymypractice from './buymypractice-card.png'
 import kichicoin from './kichicoin-card.png'
 import remoteappraisals from './remoteappraisals-card.png'
 import link from './link.svg'
+import resume from './resume.svg'
 
 export {
     logo,
@@ -34,4 +35,5 @@ export {
     kichicoin,
     remoteappraisals,
     link,
+    resume,
 }
