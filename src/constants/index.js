@@ -144,7 +144,7 @@ export const projects = [
 
 export const footerLinks = [
   {
-    title: "Living, learning, and leveling up one second at a time.",
+    title: "Living, learning, and levelling up one second at a time.",
     links: [
       {
         name: "Github",
