@@ -17,7 +17,7 @@ const Resume = ({ visible, onClose }) => {
                         <span class="sr-only">Close modal</span>
                     </button>
                 </div>
-                <a href='https://drive.google.com/file/d/1vk_NasHpkabe7CTESfbTB2gKieoGnDko/view?usp=share_link' target='_blank' className=' mb-[5px] flex justify-center items-center'>
+                <a href='https://drive.google.com/file/d/1OswYQFqDvQ-nHobOuDN7qQIGRvXI4YXm/view?usp=sharing' target='_blank' className=' mb-[5px] flex justify-center items-center'>
                     <img src={resume} alt="Steven Kebila's Resume" className='border-t md:max-h-[600px] sm:max-h-[600px] ss:max-h-[600px] h-[100vw] rounded' />
                 </a>
             </div>
