@@ -39,8 +39,9 @@ export const projects = [
     url: "https://www.lumosemarketplace.com/",
     bg: lumosemarketplace,
     stack: [
-      'React JS',
-      'Node.js',
+      'Webflow',
+      'Javascript',
+      'HTML/CSS',
       'Airtable',
       'Zapier',
       'Member Stack',
